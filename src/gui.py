@@ -20,3 +20,21 @@ def term_gui():
     elif user_choose == 3:
         sys.exit()
     pass
+
+def mbl_term_gui():
+    mgui0 = '_'*39 + '\n'
+    mgui1 = '_'*39 + '\n'
+    mgui2 = '_'*10 + 'PassGen' + '_'*22 + '\n'
+    mgui3 = '1-Gerar Senha\n2-Créditos\n3-Sair\n'
+    mgui4 = '_'*39 + '\n'
+    mgui5 = '_'*39 + '\n'
+    mgui = mgui0+mgui1+mgui2+mgui3+mgui4+mgui5
+    print(mgui)
+    user_choose = int(input('Digite o número da opção desejada: '))
+    if user_choose == 1:
+        passgen.gen_function()
+    elif user_choose == 2:
+        passgen_credits.gen_credits()
+    elif user_choose == 3:
+        sys.exit()
+    pass
