@@ -1,0 +1,2 @@
+# Descrição
+Este programa foi desenvolvido por KitsuneSemCalda para ser um simples gerador de senha criado em Python.<br> Além de ser um desafio proposto a si mesmo como forma de testar suas habilidades em programação como um iniciante na arte de programar.
