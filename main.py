@@ -1,3 +1,5 @@
+#!/bin/python3
+
 from src import gui
 
 def start():
