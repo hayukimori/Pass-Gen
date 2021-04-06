@@ -1,4 +1,5 @@
 def gen_function():
+    #gerador de senha
     from random import randint
     from random import choices
     user_choose = int(input('Qual o tamanho da senha que você deseja usar: '))
@@ -11,4 +12,9 @@ def gen_function():
     arquivo = open('Senhas.txt','w')
     arquivo.write(passw)
     arquivo.close
+    pass
+
+def gen_credits():
+    #gerando os créditos
+    print('Este programa foi criado e testado por KitsuneSemCalda ')
     pass
