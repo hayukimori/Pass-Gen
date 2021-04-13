@@ -3,7 +3,7 @@
 #importando bibliotecas para verificar a plataforma e os modulos para gerar a gui
 import platform
 import sys
-from src import gui
+from src import cli
 
 #verificando o modelo do processador do computador e qual sistema rodado
 version = platform.machine()
